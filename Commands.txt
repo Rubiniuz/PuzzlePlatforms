@@ -1,0 +1,9 @@
+"C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor.exe" "F:\Unreal\PuzzlePlatforms\PuzzlePlatforms.uproject" /Game/ThirdPerson/Maps/ThirdPersonMap -game -log
+"UEEditor.exe" "Uproject path" "Map or IP" "Commands"
+Commands -game -log -server
+ipv4 current 192.168.178.208
+
+-WINDOWED
+
+/Game/Maps/MyMap?listen -server ? if nothing shows up. use : after ip to define port
+if nothing shows up still clear binaries and intermediate folders
